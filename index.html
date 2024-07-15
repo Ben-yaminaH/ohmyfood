@@ -24,10 +24,11 @@
   </head>
 
   <body>
-
     <!--loader-->
 
-
+    <div class="loader-container">
+      <div class="loader"></div>
+    </div>
     <!--header-->
 
     <header>
@@ -86,8 +87,9 @@
           <h1>Restaurants</h1>
         </div>
         <div class="restaurants__cartes">
-          <a href="#">
-            <article class="card">
+          
+          <a href="restaurants/page1.html">
+            <div class="card">
               <div class="nouveau"><p>Nouveau</p></div>
               <img
                 src="assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
@@ -107,11 +109,11 @@
                   </label>
                 </div>
               </div>
-            </article>
+            </div>
           </a>
 
-          <a href="#">
-            <article class="card">
+          <a href="restaurants/page3.html">
+            <div class="card">
               <div class="nouveau"><p>Nouveau</p></div>
               <img
                 src="assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
@@ -130,11 +132,11 @@
                   </label>
                 </div>
               </div>
-            </article>
+            </div>
           </a>
 
-          <a href="#">
-            <article class="card">
+          <a href="restaurants/page4.html">
+            <div class="card">
               <img
                 src="assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
                 alt="La palette du goüt"
@@ -152,11 +154,11 @@
                   </label>
                 </div>
               </div>
-            </article>
+            </div>
           </a>
 
-          <a href="#">
-            <article class="card">
+          <a href="restaurants/page2.html">
+            <div class="card">
               <img
                 src="assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
                 alt="La palette du goüt"
@@ -174,7 +176,7 @@
                   </label>
                 </div>
               </div>
-            </article>
+            </div>
           </a>
         </div>
       </div>
@@ -187,20 +189,24 @@
         <p class="footer__title">ohmyfood</p>
       </div>
       <div class="footer__menu">
-        <a class="footer__menu--type1">
-          <i class="fa-solid fa-utensils"></i>
-          <p>Proposer un restaurant</p>
-        </a>
-        <a class="footer__menu--type1">
-          <i class="fa-solid fa-handshake-angle"></i>
-          <p>Devenir partenaire</p>
-        </a>
-        <a class="footer__menu--type1">
-          <p>Mentions légales</p>
-        </a>
-        <a class="footer__menu--type1">
-          <p>Contact</p>
-        </a>
+        <div class="menu1">
+          <a class="footer__menu--type1">
+            <i class="fa-solid fa-utensils"></i>
+            <p>Proposer un restaurant</p>
+          </a>
+          <a class="footer__menu--type1">
+            <i class="fa-solid fa-handshake-angle"></i>
+            <p>Devenir partenaire</p>
+          </a>
+        </div>
+        <div class="menu2">
+          <a class="footer__menu--type1">
+            <p>Mentions légales</p>
+          </a>
+          <a href="mailto:adresse@mail.fr" class="footer__menu--type1">
+            <p>Contact</p>
+          </a>
+        </div>
       </div>
     </footer>
   </body>
