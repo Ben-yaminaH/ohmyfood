@@ -87,7 +87,6 @@ a:link {
   }
 }
 
-
 /****** header ***********/
 
 header {
@@ -369,9 +368,7 @@ header {
   background-size: cover;
 }
 
-
 /****** PAGE RESTAURANTS ***********/
-
 
 /****** menu restaurant ***********/
 
@@ -528,7 +525,6 @@ input[type="checkbox"]:checked + .button-green {
 }
 
 .lesplats {
-  animation-direction: normal;
   animation-delay: 1s;
   animation-fill-mode: backwards;
   animation-duration: 3s;
@@ -536,7 +532,6 @@ input[type="checkbox"]:checked + .button-green {
 }
 
 .lesdesserts {
-  animation-direction: normal;
   animation-delay: 1s;
   animation-fill-mode: backwards;
   animation-delay: 2s;
@@ -592,14 +587,11 @@ footer i {
 
 /****** MEDIA QUERY ***********/
 
-  /****** Desktop ***********/
-
+/****** Desktop ***********/
 
 @media (min-width: 1024px) {
-
   body {
     max-width: 1440px;
-
   }
 
   /****** fonctionnement desktop ***********/
@@ -647,7 +639,7 @@ footer i {
     justify-content: space-around;
   }
 
-  .restaurants__cartes a {
+  .card {
     width: 40%;
     position: relative;
   }
@@ -710,4 +702,3 @@ footer i {
     overflow: visible;
   }
 }
-
